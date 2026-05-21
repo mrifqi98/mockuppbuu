@@ -1,0 +1,6 @@
+{
+  "name": "Properti BU Mockup",
+  "description": "A real estate listing website mockup featuring mobile and desktop responsive views, based on the provided design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
