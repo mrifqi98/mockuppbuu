@@ -25,13 +25,7 @@ export default function App() {
         
         {/* Banner Section */}
         <section className="bg-white">
-          <div className="px-5 py-4 text-center md:pb-6 md:pt-8 bg-white max-w-4xl mx-auto">
-             <h1 className="text-lg md:text-3xl font-extrabold text-gray-900 leading-snug">
-               Apartemen Roseville BSD Fully Furnished Garansi TERMURAH Jual Rugi Harga BU
-             </h1>
-          </div>
-          
-          <div className="w-full relative md:max-w-5xl md:mx-auto md:rounded-xl md:overflow-hidden md:mb-8 group cursor-pointer shadow-lg h-[500px] md:h-[600px]">
+          <div className="w-full relative md:mt-4 md:max-w-5xl md:mx-auto md:rounded-xl md:overflow-hidden group cursor-pointer shadow-lg h-[500px] md:h-[600px]">
             <img 
               src={mockListings[0].images[0]} 
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
@@ -39,25 +33,25 @@ export default function App() {
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4 md:p-6 gap-2 md:gap-4">
               
-              <div className="bg-black/50 py-1.5 md:py-3 px-6 md:px-8 w-[95%] md:w-auto">
+              <div className="bg-black/50 py-1 md:py-2 px-4 md:px-6 max-w-full">
                 <span className="text-white text-2xl md:text-4xl font-bold drop-shadow-md">
                   Rp. 690 Juta NET
                 </span>
               </div>
               
-              <div className="bg-black/50 py-2.5 md:py-5 px-6 md:px-10 flex flex-col items-center justify-center -space-y-0.5 w-[95%] md:w-auto">
+              <div className="bg-black/50 py-2 md:py-3 px-4 md:px-6 flex flex-col items-center justify-center -space-y-0.5 max-w-full">
                 <p className="text-white font-extrabold text-xl md:text-3xl drop-shadow-md">GARANSI TERMURAHHH</p>
                 <p className="text-white font-bold text-lg md:text-2xl drop-shadow-md">Harga Beli Kosongan</p>
                 <p className="text-white font-bold text-lg md:text-2xl drop-shadow-md">1.2 Milyar</p>
               </div>
               
-              <div className="bg-black/50 py-2 md:py-4 px-6 md:px-10 w-[95%] md:w-auto">
+              <div className="bg-black/50 py-1.5 md:py-2.5 px-4 md:px-6 max-w-full">
                 <p className="text-white font-bold tracking-widest text-[19px] md:text-3xl uppercase drop-shadow-md leading-tight">
                    ROSEVILE SOHO &<br className="md:hidden" /> SUITES BSD
                 </p>
               </div>
 
-              <div className="bg-black/50 py-2 md:py-4 px-3 md:px-8 w-[95%] md:w-auto">
+              <div className="bg-black/50 py-1.5 md:py-2.5 px-3 md:px-6 max-w-full">
                 <p className="text-white font-bold drop-shadow-md text-[15px] md:text-xl leading-snug">
                   Fasilitas Bintang 5 | Parkir 1:1<br className="md:hidden" />
                   <span className="hidden md:inline"> | </span>Full Furnish Worth 300JT
@@ -65,6 +59,12 @@ export default function App() {
               </div>
               
             </div>
+          </div>
+          
+          <div className="px-5 py-4 text-center md:pb-8 md:pt-6 bg-white max-w-4xl mx-auto">
+             <h1 className="text-lg md:text-3xl font-extrabold text-gray-900 leading-snug">
+               Apartemen Roseville BSD Fully Furnished Garansi TERMURAH Jual Rugi Harga BU
+             </h1>
           </div>
         </section>
 
